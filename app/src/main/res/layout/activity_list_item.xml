@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ListItemActivity">
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="8dp"
+    android:layout_margin="2dp"
+    android:background="@color/gold">
 
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:columnCount="2"
-        android:rowCount="2"
-        android:layout_margin="2dp"
-        android:padding="8dp"
-        android:background="@color/gold">
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/radio_button_text" />
 
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:text="RadioButton" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/checkbox_text" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:text="CheckBox" />
+    <Switch
+        android:id="@+id/mySwitch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/switch_text" />
 
-        <Switch
-            android:id="@+id/mySwitch"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:text="What does this do?" />
+    <ImageButton
+        android:id="@+id/cameraButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:contentDescription="@string/camera_description"
+        android:src="@android:drawable/ic_menu_camera"
+        android:scaleType="centerInside" />
 
-        <ImageButton
-            android:id="@+id/cameraButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:contentDescription="Camera"
-            android:src="@android:drawable/ic_menu_camera"
-            android:scaleType="centerInside" />
-
-    </GridLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</GridLayout>

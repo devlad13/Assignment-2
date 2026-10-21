@@ -1,12 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidAssignments</string>
+
     <string name="hello_message">Bonjour le monde !</string>
     <string name="ButtonText">Je suis un bouton</string>
-    <string name="action_settings">Settings</string>
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="login_title">Login</string>
-    <string name="login_name_hint">login name</string>
-    <string name="password_label">password</string>
-    <string name="password_hint">Enter password</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="first_fragment_label">Premier fragment</string>
+    <string name="second_fragment_label">Deuxième fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="lorem_ipsum">Ceci est un texte d’exemple à des fins de démonstration.</string>
+
+    <string name="login_title">Connexion</string>
+    <string name="login_name_hint">Adresse e-mail</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="password_hint">Saisissez votre mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="email_required">Veuillez saisir une adresse e-mail.</string>
+    <string name="invalid_email">Veuillez saisir une adresse e-mail valide.</string>
+    <string name="password_required">Veuillez saisir un mot de passe.</string>
+
+    <string name="radio_button_text">Bouton radio</string>
+    <string name="checkbox_text">Case à cocher</string>
+    <string name="switch_text">À quoi sert cet interrupteur ?</string>
+    <string name="camera_description">Appareil photo</string>
+
+    <string name="switch_on">L’interrupteur est activé</string>
+    <string name="switch_off">L’interrupteur est désactivé</string>
+
+    <string name="dialog_title">Quitter l’activité ?</string>
+    <string name="dialog_message">Voulez-vous terminer cette activité ?</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Non</string>
+
+    <string name="response_message">Mes informations à partager</string>
+
+    <string name="camera_unavailable">Aucune application appareil photo n’est disponible.</string>
+    <string name="photo_captured">Photo prise.</string>
 </resources>

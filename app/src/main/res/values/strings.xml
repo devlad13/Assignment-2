@@ -9,4 +9,29 @@
     <string name="login_name_hint">login name</string>
     <string name="password_label">password</string>
     <string name="password_hint">Enter password</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="login_button">Login</string>
+    <string name="lorem_ipsum">This is sample text for demonstration purposes.</string>
+    <string name="email_required">Please enter an email address.</string>
+    <string name="invalid_email">Please enter a valid email address.</string>
+    <string name="password_required">Please enter a password.</string>
+
+    <string name="radio_button_text">RadioButton</string>
+    <string name="checkbox_text">CheckBox</string>
+    <string name="switch_text">What does this do?</string>
+    <string name="camera_description">Camera</string>
+
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+
+    <string name="dialog_title">Exit Activity?</string>
+    <string name="dialog_message">Do you want to finish this activity?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+
+    <string name="response_message">My information to share</string>
+
+    <string name="camera_unavailable">No camera application is available.</string>
+    <string name="photo_captured">Photo captured.</string>
 </resources>
