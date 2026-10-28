@@ -30,5 +30,9 @@
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
         app:srcCompat="@android:drawable/ic_dialog_email" />
-
+    <Button
+        android:id="@+id/startChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_chat" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

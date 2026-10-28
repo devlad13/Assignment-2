@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        Button startChatButton = findViewById(R.id.startChatButton);
+
+        startChatButton.setOnClickListener(v -> {
+            Log.i("MainActivity", "User clicked Start Chat");
+
+            Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+            startActivity(intent);
+        });
         myButton = findViewById(R.id.myButton);
 
         myButton.setOnClickListener(v -> {
