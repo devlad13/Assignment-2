@@ -24,6 +24,16 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        Button testToolbarButton =
+                findViewById(R.id.testToolbarButton);
+
+        testToolbarButton.setOnClickListener(v -> {
+            Intent intent = new Intent(
+                    MainActivity.this,
+                    TestToolbar.class
+            );
+            startActivity(intent);
+        });
         Button startChatButton = findViewById(R.id.startChatButton);
 
         startChatButton.setOnClickListener(v -> {
