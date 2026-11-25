@@ -24,6 +24,19 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        Button weatherForecastButton =
+                findViewById(R.id.weatherForecastButton);
+
+        weatherForecastButton.setOnClickListener(v -> {
+
+            Intent intent = new Intent(
+                    MainActivity.this,
+                    WeatherForecast.class
+            );
+
+            startActivity(intent);
+        });
+
         Button testToolbarButton =
                 findViewById(R.id.testToolbarButton);
 

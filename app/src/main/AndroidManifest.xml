@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <queries>
         <intent>
             <action android:name="android.media.action.IMAGE_CAPTURE" />
@@ -46,6 +46,9 @@
             android:exported="false"
             android:theme="@style/Theme.Assignment1"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".WeatherForecast"
+            android:exported="false" />
     </application>
 
 </manifest>
