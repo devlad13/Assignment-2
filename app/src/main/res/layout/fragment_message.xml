@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/messageDetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected message"
+        android:textSize="20sp"
+        android:gravity="right" />
+
+    <TextView
+        android:id="@+id/messageDetailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message ID: 1"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/deleteMessageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Delete this message" />
+
+</LinearLayout>
